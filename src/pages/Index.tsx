@@ -1,10 +1,11 @@
-
 import { motion } from "framer-motion";
 import { Navigation } from "@/components/Navigation";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { EventTimeline } from "@/components/EventTimeline";
+import { Rules } from "@/components/Rules";
 import { FAQ } from "@/components/FAQ";
 import { Contact } from "@/components/Contact";
+import { Map } from "@/components/Map";
 
 const Index = () => {
   return (
@@ -13,7 +14,7 @@ const Index = () => {
       
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center">
-        {/* Background Gradient Sun */}
+        {/* Background Elements */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-b from-hackathon-yellow via-hackathon-orange to-transparent opacity-90" />
         
         {/* Pixel Art Clouds */}
@@ -89,18 +90,6 @@ const Index = () => {
               Grab your tickets now
             </motion.button>
           </div>
-          
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
-            className="mt-16 text-white"
-          >
-            <p className="text-xl mb-3">Prize Pool: ₹75,000</p>
-            <p className="text-hackathon-blue">
-              Organized by: TechCider Club, Infinix Club, Manthan Club - NMIMS Navi Mumbai
-            </p>
-          </motion.div>
         </div>
 
         {/* Pixel Art Decorations */}
@@ -127,8 +116,14 @@ const Index = () => {
       {/* Event Timeline Section */}
       <EventTimeline />
 
+      {/* Rules Section */}
+      <Rules />
+
       {/* FAQ Section */}
       <FAQ />
+
+      {/* Map Section */}
+      <Map />
 
       {/* Contact & Footer */}
       <Contact />
