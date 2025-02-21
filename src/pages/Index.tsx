@@ -2,6 +2,9 @@
 import { motion } from "framer-motion";
 import { Navigation } from "@/components/Navigation";
 import { CountdownTimer } from "@/components/CountdownTimer";
+import { EventTimeline } from "@/components/EventTimeline";
+import { FAQ } from "@/components/FAQ";
+import { Contact } from "@/components/Contact";
 
 const Index = () => {
   return (
@@ -120,6 +123,15 @@ const Index = () => {
           className="absolute bottom-60 left-32 w-6 h-6 bg-hackathon-yellow/50"
         />
       </section>
+
+      {/* Event Timeline Section */}
+      <EventTimeline />
+
+      {/* FAQ Section */}
+      <FAQ />
+
+      {/* Contact & Footer */}
+      <Contact />
     </div>
   );
 };
