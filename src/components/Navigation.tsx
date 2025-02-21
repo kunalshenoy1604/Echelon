@@ -17,10 +17,10 @@ export const Navigation = () => {
     <motion.nav 
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 w-full z-50 px-4 py-4 bg-hackathon-purple/80 backdrop-blur-sm"
+      className="fixed top-0 w-full z-50 px-4 py-4"
     >
       <div className="max-w-7xl mx-auto">
-        <ul className="flex justify-center space-x-8">
+        <ul className="flex justify-center space-x-8 bg-hackathon-purple/30 backdrop-blur-md px-8 py-4 rounded-full">
           {navItems.map((item) => (
             <motion.li
               key={item.path}

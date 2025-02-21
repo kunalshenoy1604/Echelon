@@ -30,22 +30,22 @@ export const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center space-x-8">
+    <div className="flex justify-center items-center space-x-4">
       {Object.entries(timeLeft).map(([unit, value]) => (
         <motion.div
           key={unit}
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
-          className="flex flex-col items-center"
+          className="flex flex-col items-center bg-hackathon-purple/30 backdrop-blur-sm px-6 py-4 rounded-lg"
         >
           <motion.span
             animate={{ scale: [1, 1.1, 1] }}
             transition={{ duration: 1, repeat: Infinity }}
-            className="text-5xl font-bold text-white mb-2"
+            className="text-6xl font-mono font-bold text-white mb-2 tabular-nums"
           >
             {value.toString().padStart(2, "0")}
           </motion.span>
-          <span className="text-hackathon-yellow text-sm uppercase">{unit}</span>
+          <span className="text-hackathon-yellow text-sm uppercase tracking-wider">{unit}</span>
         </motion.div>
       ))}
     </div>
