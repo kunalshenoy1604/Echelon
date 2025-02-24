@@ -6,12 +6,14 @@ import { Rules } from "@/components/Rules";
 import { FAQ } from "@/components/FAQ";
 import { Contact } from "@/components/Contact";
 import { Map } from "@/components/Map";
+import { WhyParticipate } from "@/components/WhyParticipate";
+import { Sponsors } from "@/components/Sponsors";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-hackathon-purple overflow-hidden">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-8 text-center">
         {/* Background Elements */}
@@ -52,7 +54,7 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl sm:text-7xl font-bold text-white mb-4"
           >
-            CodeShastra'25
+            Echelon'25
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -60,7 +62,7 @@ const Index = () => {
             transition={{ delay: 0.2 }}
             className="text-base sm:text-2xl text-hackathon-yellow mb-6 sm:mb-10"
           >
-            Flagship 24-hour STME Hackathon
+            STME's Flagship Blockbuster 24-hour Hackathon
           </motion.p>
           
           <div className="mb-10 sm:mb-16">
@@ -68,20 +70,30 @@ const Index = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-10 w-full max-w-[100%]">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-hackathon-yellow to-hackathon-orange text-white rounded-xl font-medium shadow-lg hover:shadow-xl transition-shadow pixel-corners w-full sm:w-auto"
-            >
-              Participate Now
-            </motion.button>
-          </div>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf-LbAJyfBXojm3976fx7aDo0Ln55I42EwBXDGDDsSNrQjArQ/viewform?usp=header" // Replace with your actual Google Forms link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full sm:w-auto"
+        >
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-hackathon-yellow to-hackathon-orange text-white rounded-xl font-medium shadow-lg hover:shadow-xl transition-shadow pixel-corners w-full sm:w-auto"
+          >
+            Participate Now
+          </motion.button>
+          </a>
+        </div>
+
         </div>
       </section>
 
       {/* Other Sections */}
       <EventTimeline />
+      <WhyParticipate />
       <Rules />
+      <Sponsors />
       <FAQ />
       <Map />
       <Contact />

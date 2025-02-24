@@ -5,9 +5,9 @@ import { useState } from "react"
 
 const faqs = [
   {
-    question: "What is CodeShastra'25?",
+    question: "What is Echelon'25?",
     answer:
-      "CodeShastra'25 is NMIMS Navi Mumbai's flagship 24-hour hackathon where participants work on innovative solutions to real-world problems.",
+      "Echelon'25 is NMIMS Navi Mumbai's flagship 24-hour hackathon where participants work on innovative solutions to real-world problems.",
     icon: "🚀",
   },
   {
@@ -18,13 +18,18 @@ const faqs = [
   },
   {
     question: "What's the prize pool?",
-    answer: "The total prize pool is ₹75,000, with exciting prizes for winners and special category awards.",
+    answer: "The total prize pool is ₹80,000, with exciting prizes for winners and special category awards.",
     icon: "💰",
   },
   {
     question: "Is there a registration fee?",
-    answer: "Yes, there is a nominal registration fee per team. Early bird discounts are available.",
+    answer: "Yes, there is a registration fee of ₹249 per team.",
     icon: "🎫",
+  },
+  {
+    question: "Is there a chance of my team not getting shortlisted for the hackathon?",
+    answer: "Not at all. Unlike other organisers, we don't have a shortlisting process. All teams are welcome to participate.",
+    icon: "😬",
   },
   {
     question: "What should I bring?",
