@@ -111,6 +111,7 @@ export const Contact = () => {
                   <p>Deepali Koirala - +91 9167226904</p>
                   <p>Rishika Singh - +91 9321038001</p>
                   <p>Kunal Shenoy - +91 8452996098</p>
+                  <p>Haripriya Saraf - +91 9324443145</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3 text-hackathon-yellow/90">

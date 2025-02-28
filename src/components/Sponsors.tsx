@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-
 export const Sponsors = () => {
   const sponsors = [
     {
@@ -56,19 +55,36 @@ export const Sponsors = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="flex items-center justify-center gap-3 mb-4">
           <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-4xl font-bold text-white relative z-10"
-        >
-          Our Partners
-        </motion.h2>
-          </div>
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-4xl font-bold text-white relative z-10"
+          >
+            Our Partners
+          </motion.h2>
           <p className="text-lg text-hackathon-yellow/80 max-w-2xl mx-auto">
             Empowering innovation through partnership. Meet the organizations making Echelon'25 possible.
           </p>
+        </motion.div>
+
+        {/* Powered By Unstop */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="flex flex-col items-center mb-12"
+        >
+          <span className="text-hackathon-yellow text-lg font-semibold uppercase tracking-wide mb-2">
+            Powered By
+          </span>
+          <div className="relative bg-white/10 backdrop-blur-lg p-6 rounded-xl border border-white/20 shadow-lg">
+            <img
+              src="/unstop.png"
+              alt="Unstop Logo"
+              className="h-16 object-contain"
+            />
+          </div>
         </motion.div>
 
         {/* Sponsors Grid */}

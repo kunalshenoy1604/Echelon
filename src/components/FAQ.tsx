@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "Is there a registration fee?",
-    answer: "Yes, there is a registration fee of ₹249 per team.",
+    answer: "Yes, there is a registration fee of ₹358 per team.",
     icon: "🎫",
   },
   {

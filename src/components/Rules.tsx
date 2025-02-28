@@ -6,7 +6,7 @@ import { useEffect } from "react"
 const rules = [
   {
     title: "Team Formation",
-    description: "Form teams of 2-4 members. Cross-college teams are allowed.",
+    description: "Form teams of 2-4 members. Cross-college teams are not allowed.",
     icon: "👥",
     color: "from-[#FF6B6B] to-[#FF8E8E]",
   },

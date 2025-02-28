@@ -71,7 +71,7 @@ const Index = () => {
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-10 w-full max-w-[100%]">
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSf-LbAJyfBXojm3976fx7aDo0Ln55I42EwBXDGDDsSNrQjArQ/viewform?usp=header" // Replace with your actual Google Forms link
+          href="https://unstop.com/p/echelon25-stme-flagship-24-hour-hackathon-nmims-navi-mumbai-1413945?lb=csxoIl5&utm_medium=Share&utm_source=shortUrl" // Replace with your actual Google Forms link
           target="_blank"
           rel="noopener noreferrer"
           className="w-full sm:w-auto"
