@@ -84,18 +84,19 @@ const prizeDetails: PrizeDetail[] = [
   {
     position: "1st Prize",
     amount: "₹40,000",
-    rewards: ["25K in-cash", "Internship", "Exciting Goodies", "Certificates"],
+    rewards: ["25K in-cash", "Internship", "Exciting Goodies", "Certificates","Total In-Kind (15K)"],
     color: "from-yellow-300 via-yellow-200 to-yellow-400",
   },
   {
     position: "2nd Prize",
     amount: "₹25,000",
-    rewards: ["10K in-cash", "Internship", "Exciting Goodies", "Certificates"],
+    rewards: ["10K in-cash", "Internship", "Exciting Goodies", "Certificates","Total In-Kind (15K)"],
     color: "from-gray-300 via-gray-100 to-gray-400",
   },
   {
     position: "3rd Prize",
-    rewards: ["Internship", "Exciting Goodies", "Certificates"],
+    amount: "₹15,000",
+    rewards: ["5K in-cash","Internship", "Exciting Goodies", "Certificates","Total In-Kind (10K)"],
     color: "from-amber-700 via-amber-600 to-amber-800",
   },
 ]
