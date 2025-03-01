@@ -62,7 +62,7 @@ const Index = () => {
             transition={{ delay: 0.2 }}
             className="text-base sm:text-2xl text-hackathon-yellow mb-6 sm:mb-10"
           >
-            STME's Flagship Blockbuster 24-hour Hackathon
+            STME's Flagship 24-hour Hackathon
           </motion.p>
           
           <div className="mb-10 sm:mb-16">
