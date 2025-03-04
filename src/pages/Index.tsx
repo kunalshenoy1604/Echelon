@@ -49,13 +49,18 @@ const Index = () => {
         
         {/* Main Content */}
         <div className="relative z-10 text-center mt-12 sm:mt-24">
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-3xl sm:text-7xl font-bold text-white mb-4"
-          >
-            Echelon'25
-          </motion.h1>
+        <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="flex justify-center"
+      >
+        <img
+          src="/echelon25_logo.png"  // ✅ Ensure image is in the "public" folder
+          alt="Echelon'25 Logo"
+          className="w-48 sm:w-72 md:w-96 lg:w-[400px] h-auto"
+        />
+      </motion.div>
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
