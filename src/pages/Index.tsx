@@ -57,7 +57,7 @@ const Index = () => {
         <img
           src="/echelon25_logo.png"  // ✅ Ensure image is in the "public" folder
           alt="Echelon'25 Logo"
-          className="w-48 sm:w-72 md:w-96 lg:w-[400px] h-auto"
+          className="w-60 sm:w-108 md:w-96 lg:w-[400px] h-auto"
         />
       </motion.div>
 
