@@ -89,6 +89,20 @@ const Index = () => {
             Participate Now
           </motion.button>
           </a>
+          <a
+            href="https://tinyurl.com/echelonchat"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto mt-4 sm:mt-0"
+          >
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-hackathon-purple to-hackathon-green text-white rounded-xl font-medium shadow-lg hover:shadow-xl transition-shadow pixel-corners w-full sm:w-auto"
+            >
+              EchelonGPT
+            </motion.button>
+          </a>
         </div>
 
         </div>
